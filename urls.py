@@ -49,8 +49,8 @@ urlpatterns = patterns('',
         name="expert"
     ),
     url(
-        r'^academicStaff/',
-        include('academicStaff.urls'),
+        r'^adminStaff/',
+        include('adminStaff.urls'),
         name="staff"
         ),
     url(
